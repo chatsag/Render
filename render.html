@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Render</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="flexbox">
+		<div class="view"><!--The div where the code will be rendered-->
+			<style id="csscode" type="text/css"></style><!--Defines the stylesheet of the division-->
+			<script id="jscode" type="text/javascript"></script> 
+			<div id="HTMLview"></div><!--Defines the viewing area of the division-->
+		</div>
+		<div id="col1" class="col1"></div>
+		<div id="HTML" class="HTML">
+			<textarea id="HTMLText" rows="10"></textarea><!--Here you will write the HTML code-->
+			<button onclick="func1()">Submit</button>
+		</div>
+		<div class="col2"></div>
+		<div id="CSS" class="CSS">
+			<textarea id="CSSText" rows="10"></textarea><!--Here you will write the CSS code-->
+			<button onclick="func2()">Submit</button>
+		</div>
+	</div>
+  <script type="text/javascript">
+	function func1(){//Use this to render the HTML code onto .view
+	  var x=document.getElementById('HTMLText').value;
+	  document.getElementById('HTMLview').innerHTML=x;
+	}
+	function func2(){//Use this to render the CSS code onto .view
+	  var y=".HTML "+document.getElementById('CSSText').value;
+	  document.getElementById('csscode').innerHTML=y;
+	}
+  </script>
+	
+</body>
+</html>
