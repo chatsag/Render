@@ -17,6 +17,7 @@
 	background-color: black;
 	color:white;
 	height:100%;
+	font-size:3vh;
 	flex:3.5;
 	order:2;
 }
@@ -24,6 +25,7 @@
 	background-color: black;
 	color:white;
 	height:100%;
+	font-size:3vh;
 	flex:3.5;
 	order:4;
 }
