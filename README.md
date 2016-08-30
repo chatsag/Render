@@ -10,3 +10,6 @@ This project aims to render the HTML and CSS code typed in the browser itself. I
 * The website is now fully responsive.
 * The latest update to the `myscript.js` file has ensured that we can indent the code in the `HTMLText` and `CSSText` textareas using `tab` just like in a normal text editor.
 
+#Render in Action
+![Using Render for basic HTML](https://github.com/chatsagnik/Render/blob/master/Images/Screenshot%20(118).png)
+![Using Render for HTML with CSS](https://github.com/chatsagnik/Render/blob/master/Images/Screenshot%20(119).png)
